@@ -1,5 +1,3 @@
-# FinalWork
-
 ## Упаковать сервисы short_url и to_do в Docker-контейнеры, используя именованные Docker-тома для сохранения данных
 
 1. Создаем тома:
@@ -38,9 +36,19 @@
 3. Раздел **Schemas:**
    ![image](https://github.com/user-attachments/assets/b1bfdfd0-bbe1-49ba-b0ab-b0cec5aad091)
 
+## SHORT_URL
 
+1. Переходим в развернутый FastApi для сервиса short_url
 
+![image](https://github.com/user-attachments/assets/2e0c2cb9-19ee-487d-ad0d-93674c31b900)
 
+2. Раздел **default:**
+   - POST /shorten
+   ![image](https://github.com/user-attachments/assets/80756331-ac4a-4333-93b3-eb3f8402ed41)
+   - GET /{short_id}
+   ![image](https://github.com/user-attachments/assets/9d1a2fdc-4274-4f17-bd86-23626298a924)
+   - GET /stats/{short_id}
+   ![image](https://github.com/user-attachments/assets/85e39215-f1f8-4655-8cdc-7bdd170c6ab3)
+3. Раздел **Schemas:**
 
-
-
+![image](https://github.com/user-attachments/assets/80b16445-7f48-4ecb-9baf-7cde120a8335)
